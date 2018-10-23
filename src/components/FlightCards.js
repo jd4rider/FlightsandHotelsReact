@@ -14,7 +14,7 @@ export default class FlightCards extends Component {
       data.Details = JSON.stringify(data.Details);
       //data = JSON.stringify(data);
       //data = JSON.stringify(data);
-      fetch("http://localhost:50306/api/FlightAndHotels", {
+      fetch("/api/FlightAndHotels", {
         method: "POST",
         mode: "cors", 
         cache: "no-cache", 
